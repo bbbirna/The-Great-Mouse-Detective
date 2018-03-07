@@ -2,8 +2,8 @@ var expect = require('chai').expect;
 
 expect(true).to.be.true;
 
-function titleCase() {
-	
+function titleCase(title) {
+	return title;
 }  
 
 expect(titleCase('the great mouse detective')).to.be.a('string');
